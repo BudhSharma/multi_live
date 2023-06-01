@@ -50,7 +50,7 @@ app.get('/join', async (req, res) => {
     const meetingId = createMeetingResponse.data.id;
 
     // Generate join URL
-    const username = 'hemant26122002@gmail.com'; // Replace with participant's email or username
+    const username = 'sakalkumar62@gmail.com'; // Replace with participant's email or username
     const joinUrl = `https://zoom.us/j/${meetingId}?uname=${encodeURIComponent(username)}`;
 
     res.json({ joinUrl });
